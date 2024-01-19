@@ -1,0 +1,9 @@
+bool test_func() {
+    while (i < 10) {
+        if (i > 3) {
+            a = 1;
+        } else {
+            a = 2;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+bool test_func() {
+    a = 1;
+    b = 3;
+    c = (17 - 425) * 424;
+    t = "text";
+    r == 4;
+
+    int[,] arr;
+    g[r] = arr2;
+}
