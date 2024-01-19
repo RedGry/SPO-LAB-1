@@ -6,15 +6,16 @@
 #include <locale.h>
 
 extern int yyparse();
-extern FILE* yyin;
 
-extern ASTNode ** allNodes;
+extern FILE *yyin;
+
+extern ASTNode **allNodes;
 extern u_int64_t allNodesCount;
 
 int main(int argc, char *argv[]) {
     setlocale(LC_ALL, "ru_RU.UTF-8");
 
-    allNodes = malloc(1024 * 8 * sizeof(ASTNode*));
+    allNodes = malloc(1024 * 8 * sizeof(ASTNode *));
     allNodesCount = 0;
 
     if (!allNodes) {
